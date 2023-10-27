@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family: 'Akshar', sans-serif;
+    font-family: 'Fira Code', monospace;
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Akshar', sans-serif;
+    font-family: 'Fira Code', monospace;
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}

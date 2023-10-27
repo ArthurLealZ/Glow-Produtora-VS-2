@@ -1,0 +1,187 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.cabecalho{
+    padding: 15px;
+    position: relative;
+}
+
+.cabecalho .logo{
+    background: url(../images/Glow_Logo_branco.png) center center no-repeat;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+.cabecalho .logo h1{
+    font-size: 0;
+}
+
+.cabecalho nav{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: 80px;
+    font-size: 20px;
+}
+
+.cabecalho nav li{ 
+    display: inline;
+    padding: 15px;
+}
+
+.cabecalho ul li a:hover{
+    font-weight: bold;
+}
+
+.painel{
+    background: url(../images/Papel_de_parede.jpg) center center no-repeat;
+    height: 600px;
+
+}
+
+.painel h2{
+    color:white;
+    font-size:60px;
+    font-weight: 400px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    background: linear-gradient(-233deg, #000 -25%, rgba(0, 0, 0, 0) 105%) no-repeat;
+}
+
+.secao-com-texto{
+    padding: 153px;
+    text-align: center;
+    clear: both;
+}
+
+.secao-com-texto .fa-camera-retro{
+    width: 170px;
+    height: 170px;
+    margin-bottom: 70px;
+}
+
+.secao-com-texto .fa-microphone{
+    width: 170px;
+    height: 170px;
+    margin-bottom: 70px;
+}
+
+.secao-com-texto h2{
+    font-size: 45px;
+    font-weight: 660px;
+    margin-bottom: 37px;
+}
+
+.secao-com-texto p{
+    font-size: 18px;
+    width: 702px;
+    margin: 0 auto;
+}
+
+.ladrilho div{
+    float: left;
+}
+
+.ladrilho .medio{
+    background: url(../images/1-1.png) center center no-repeat;
+    height: 336px;
+    width: 50%;
+}
+.ladrilho .grande{
+    background: url(../images/2-2.png) center center no-repeat; 
+    height: 672px;
+    width: 50%;
+}
+
+.ladrilho .pequeno{
+    background: url(../images/3-3.png) center center no-repeat;
+    height: 336px;
+    width: 25%;
+}
+
+.ladrilho .pequeno_cell{
+    background: url(../images/4-4.png) center center no-repeat;
+    height: 336px;
+    width: 25%;
+}
+
+
+
+.contato{
+    background: url(../images/Contato.png) center center no-repeat;
+    height: 607px;
+    position: relative;
+    color: white;
+}
+
+.contato h2{
+    font-size: 100px;
+    font-weight: 700px;
+
+}
+
+.contato address{
+    font-size: 35px;
+    font-weight: 600px;
+}
+
+.contato .texto{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin-bottom: 30px;
+    background: linear-gradient(-233deg, #000 -25%, rgba(0, 0, 0, 0) 65%) no-repeat;
+}
+
+.rodape{
+    background: url(../images/Glow_Logo_branco.png) 
+    padding 35px 30px;
+}
+
+.rodape ul{
+    float: right;
+    margin-top: 30px;
+}
+
+.rodape ul li{
+    display: inline-block;
+    padding: 15px;
+
+}
+
+.rodape ul li a{
+    color: black;
+    
+}
+
+.rodape ul li a:hover{
+    font-weight: bold;
+}
+
+.rodape .copyrigth{
+    color: black;
+}
+
+.rodape .instagram{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    top: 0;
+}
+
+.rodape .redes-sociais{
+    float: right;
+    clear: both;
+}
+
+.rodape .conteudo-de-baixo{
+    margin-top: 40px;
+}
