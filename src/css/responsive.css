@@ -1,5 +1,17 @@
+@media (max-width: 1286px){
+    .painel{
+        background: url(../images/Papel_2.png);
+    }
+}
 
-@media (max-width: 991.98px){
+@media (max-width: 1150px){
+    .painel{
+        background: url(../images/1150.png);
+    }
+}
+
+
+@media (max-width: 1000px){
     .secao-com-texto{
         padding: 153px 40px;
     }
@@ -11,12 +23,15 @@
     .secao-com-texto h2{
         font-size: 3rem;
     }
+
+    .painel{
+        background: url(../images/Papel_3.png);
+    }
 }
 
 @media (max-width: 767.98px){
     .contato{
-        background: url(../images/Contato-1.png) center center no-repeat;
-
+        background: url(../images/Glow3.png) center center no-repeat;
     }
 
     .contato .texto{
@@ -37,10 +52,18 @@
         font-size: 30px;
         font-weight: 550px;
     }
+
+    .painel{
+        background: url(../images/Papel_4.png);
+    }
     
 }
-
 @media (max-width: 720px){
+
+    .painel{
+        background: url(../images/Papel_5.png);
+    }
+
     .ladrilho .grande,.ladrilho .medio{
         width: 100%;
     }
@@ -85,9 +108,13 @@
 
 }
 
-@media (max-width: 548px){
+@media (max-width: 620px){
     body{
         font-size: 80%;
+    }
+
+    .painel{
+        background: url(../images/Papel_6.png) center center no-repeat;
     }
 
     .cabecalho .logo{
@@ -112,10 +139,6 @@
         display: block;
     }
 
-    .painel h2{
-        font-size: 2.5rem;
-    }
-
     .secao-com-texto h2{
         font-size: 3rem;
     }
@@ -130,10 +153,20 @@
     
 }
 
+@media (max-width:450){
+    .painel{
+        background: url(../images/450.png);
+    }
+}
 
-@media (max-width: 368px){
+
+@media(max-width: 415px){
     .ladrilho .pequeno,.ladrilho .pequeno_cell{
         width: 100%;
+    }
+
+    .painel{
+        background: url(../images/Papel_7.png) center center no-repeat;
     }
 
 }
